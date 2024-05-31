@@ -1,0 +1,221 @@
+h:hover,.carttag:hover,.downarrow:hover,.offertag:hover,
+.searchbar:hover,.helptag:hover,.signin:hover,.carttag:hover,.rarrows:hover
+,.larrows:hover,.swigyicon:hover,.larrows2:hover,.rarrows2:hover,.Hyderbad:hover,.button1:hover,.corad:hover{
+    color: rgb(238, 186, 90);
+    cursor: pointer;
+}
+h{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.maindiv{
+    animation: open;
+    animation-duration: 0.2s;
+}
+.header{
+    height: 90px;
+    padding-left: 40px;
+    align-items: center;
+    box-shadow: 0px 10px 1em rgb(227, 238, 243);
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    flex-wrap: 1;
+}
+.others{
+    padding-left: 25px;
+}
+.downarrow{
+    width: 15px;
+    padding-left: 8px;
+}
+.downarrowbutton{
+    border: none;
+    background-color: white;
+}
+.search{
+    color: black;
+}
+.searchbar{
+    width: 20px;
+    padding-left: 600px;
+    padding-right:10px;
+}
+.offertag{
+    width: 30px;
+    padding-left:25px;
+    padding-right: 0px;
+}
+.offer{
+    padding-right: 0px;
+}
+.offersup{
+    color: rgb(249, 178, 47);
+    font-size: 10px;
+    padding-left: 2px;
+}
+.helptag{
+    width: 21px;
+    padding-left: 25px;
+}
+.help{
+    padding-left: 5px;
+    padding-right: 27px;
+}
+.signin{
+    width: 30px;
+    padding-right: 3px;
+}
+.carttag{
+    width: 30px;
+    padding-left: 25px;
+}
+.cart{
+    padding-left: 5px;
+}
+.navigationbar{
+    height: 250px;
+    padding-top: 20px;
+    align-items: center;
+    padding-left: 70px;
+    box-shadow: 0px 10px 1em rgb(227, 238, 243);
+}
+.rarrows{
+    padding-left: 15px;
+}
+.larrows{
+    padding-left: 870px;
+}
+.dishes{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly ;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 150px;
+    padding-top: 30px;
+}
+.cards1{
+    height: 100px;
+   justify-content: center;
+   padding-left: 2px;
+   margin-right: 40px;
+}
+.dishimg{
+    width: 140px;
+    border-radius: 70px;
+    padding-bottom: 5px;
+}
+.dishname{
+    color: rgb(112, 105, 105);
+    align-items: center;
+    padding-left: 35px;
+    justify-content: center;
+}
+.toprestaurants{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    box-shadow:0px 10px 1em rgb(227, 238, 243);
+    padding-bottom: 50px;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.toprestaurantsinside{
+    padding-bottom: 25px;
+    padding-left: 7em;
+    padding-right: 7em;
+}
+.larrows2{
+    padding-left: 770px;
+}
+.rarrows2{
+    padding-left: 10px;
+}
+.Hyderbaddiv{
+    display: flex;
+    row-gap: 8px;
+    column-gap: 5px;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.Hyderbad{
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.rating{
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 1em rgb(227, 238, 243);
+    height: 100vh;
+    padding-left: 70px;
+    padding-top: 30px;
+}
+.button{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;   
+}
+
+.button1{
+    padding: 5px 10px 5px;
+    border-radius: 20px;
+    border-style: solid;
+    box-shadow: 10px 10px 1em rgb(223, 235, 240);
+    border-width: 0.20px;
+    border-right: 15px;
+    margin-left: 12px;
+    border-color: rgb(223, 235, 240);
+}
+.ratedrestaurants{
+    height: 100vh;
+    width: auto;
+    padding-top: 25px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 9px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.ratedsih{
+    border-radius: 20px;
+    height: 150px;
+    width: 220px;
+    object-fit: cover;
+}
+.resortname{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    padding-left: 6px;
+    margin-top: 5px;
+    margin-bottom: -4px;
+}
+.card{
+    row-gap: 15px;
+    height: 290px;
+    width: 220px;
+    box-shadow: 10px 10px 1em rgb(223, 235, 240);
+}
+
+.ratingstar{
+    margin-bottom: -8px;
+    width: 25px;
+    padding-right: 5px;
+    align-items: center;
+}
+.address{
+    max-width: 200px;
+    text-wrap: wrap;
+}
+
+
+
